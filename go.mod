@@ -1,6 +1,7 @@
 module github.com/amsokol/go-grpc-http-rest-microservice-tutorial
 
 require (
+	github.com/DATA-DOG/go-sqlmock v1.4.1 // indirect
 	github.com/go-sql-driver/mysql v1.4.0
 	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b // indirect
 	github.com/golang/protobuf v1.2.0
@@ -12,3 +13,5 @@ require (
 	google.golang.org/grpc v1.14.0
 	gopkg.in/DATA-DOG/go-sqlmock.v1 v1.3.0
 )
+
+go 1.13
